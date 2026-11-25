@@ -16,3 +16,6 @@ Ingen entydig rotorsak. Börja med supportärende; därefter API/auth, databasti
 
 ## Lokalt
 python3 -m http.server 8000 och öppna http://localhost:8000. Live hämtar fortfarande GitHub; använd reservkod för lokala scenarier. Inga externa JS-beroenden.
+
+## Version 2
+Nio förberedda steg till 11:00. Ny workshop / återställ skapar nytt session-ID och återställer flaggor, rapporter och reglage. Publicera efter ändring. Reglagen styr senaste mätpunkt och extra konton/kommentarer; mätpunkter sparas på senaste 15-minuterspunkt. Vid nästa steg återgår reglagen till scenariovärden, medan historiska mätvärden bevaras. Rapporter är historiska utdrag. Live hämtar alla fyra JSON-filer från GitHub Raw var tionde sekund; cache och nätverk kan fortfarande fördröja. Manuell styrning gäller tills återställning eller omladdning. Studentloggar behålls per session och utkast sparas separat. npm test kör modelltester.

@@ -1,6 +1,6 @@
 {
   "sessionId": "incident-04",
-  "simulationTime": "10:15",
+  "simulationTime": "11:00",
   "events": {
     "support_identity_complaint": 1,
     "api_traffic_increase": 1,
@@ -9,7 +9,12 @@
     "new_user_accounts": 1,
     "aggressive_comments": 1,
     "additional_support_tickets": 1,
-    "management_request": 1
+    "management_request": 1,
+    "comment_escalation": 1,
+    "support_escalation": 1,
+    "lina_followup": 1,
+    "traffic_decline": 1,
+    "traffic_zero": 1
   },
   "reports": {
     "auth_log_details": 1,
@@ -17,5 +22,7 @@
     "database_table_statistics": 1,
     "deployment_history": 1,
     "user_activity_report": 1
-  }
+  },
+  "overrides": {},
+  "metricHistory": {}
 }

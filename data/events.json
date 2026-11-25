@@ -20,8 +20,11 @@
       750,
       1300,
       2100,
-      1100,
-      0
+      2900,
+      3200,
+      3400,
+      3500,
+      3500
     ]
   },
   "failed_auth_increase": {
@@ -32,8 +35,11 @@
       85,
       160,
       190,
-      24,
-      0
+      220,
+      195,
+      200,
+      200,
+      200
     ]
   },
   "database_growth": {
@@ -45,7 +51,10 @@
       178,
       215,
       258,
-      284
+      284,
+      300,
+      310,
+      310
     ]
   },
   "new_user_accounts": {
@@ -308,7 +317,46 @@
         "u1212",
         "Lo32",
         "Håll tyst, du fattar ingenting."
+      ]
+    ]
+  },
+  "additional_support_tickets": {
+    "label": "Fler supportärenden",
+    "view": "Support",
+    "rows": [
+      [
+        "#1043",
+        "09:50",
+        "Olle",
+        "Flera nya konton förstör diskussionen.",
+        "Öppet"
       ],
+      [
+        "#1044",
+        "09:54",
+        "Maja",
+        "Jag vill veta hur jag tar bort mitt konto.",
+        "Öppet"
+      ]
+    ]
+  },
+  "management_request": {
+    "label": "Produktägaren vill ha besked",
+    "view": "Support",
+    "rows": [
+      [
+        "#1045",
+        "10:15",
+        "Produktägare",
+        "Är användarnas information säker? Kan vi hålla tjänsten öppen? Behöver ett besked.",
+        "Öppet"
+      ]
+    ]
+  },
+  "comment_escalation": {
+    "label": "Eskalering: hot och trakasserier",
+    "view": "Application",
+    "rows": [
       [
         "09:48",
         "Helgens aktiviteter",
@@ -976,24 +1024,10 @@
       ]
     ]
   },
-  "additional_support_tickets": {
-    "label": "Fler supportärenden",
+  "support_escalation": {
+    "label": "Akuta supportärenden",
     "view": "Support",
     "rows": [
-      [
-        "#1043",
-        "09:50",
-        "Olle",
-        "Flera nya konton förstör diskussionen.",
-        "Öppet"
-      ],
-      [
-        "#1044",
-        "09:54",
-        "Maja",
-        "Jag vill veta hur jag tar bort mitt konto.",
-        "Öppet"
-      ],
       [
         "#1046",
         "10:02",
@@ -1021,7 +1055,13 @@
         "Moderator",
         "Det kommer fler kommentarer än vi hinner granska. Behöver hjälp med att begränsa aktiviteten.",
         "Öppet"
-      ],
+      ]
+    ]
+  },
+  "lina_followup": {
+    "label": "Linas långa uppföljning",
+    "view": "Support",
+    "rows": [
       [
         "#1050",
         "10:15",
@@ -1031,17 +1071,12 @@
       ]
     ]
   },
-  "management_request": {
-    "label": "Produktägaren vill ha besked",
-    "view": "Support",
-    "rows": [
-      [
-        "#1045",
-        "10:15",
-        "Produktägare",
-        "Är användarnas information säker? Kan vi hålla tjänsten öppen? Behöver ett besked.",
-        "Öppet"
-      ]
-    ]
+  "traffic_decline": {
+    "label": "Trafiken avtar",
+    "view": "API Metrics"
+  },
+  "traffic_zero": {
+    "label": "Trafik och auth går till noll",
+    "view": "Overview"
   }
 }
