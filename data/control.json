@@ -1,9 +1,9 @@
 {
-  "sessionId": "incident-01",
+  "sessionId": "incident-00",
   "simulationTime": "09:00",
   "events": {
     "support_identity_complaint": 1,
-    "api_traffic_increase": 1,
+    "api_traffic_increase": 0,
     "failed_auth_increase": 0,
     "database_growth": 0,
     "new_user_accounts": 0,
@@ -12,7 +12,7 @@
     "management_request": 0
   },
   "reports": {
-    "auth_log_details": 1,
+    "auth_log_details": 0,
     "registration_report": 0,
     "database_table_statistics": 0,
     "deployment_history": 1,
