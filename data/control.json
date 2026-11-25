@@ -3,7 +3,7 @@
   "simulationTime": "09:00",
   "events": {
     "support_identity_complaint": 1,
-    "api_traffic_increase": 0,
+    "api_traffic_increase": 1,
     "failed_auth_increase": 0,
     "database_growth": 0,
     "new_user_accounts": 0,
