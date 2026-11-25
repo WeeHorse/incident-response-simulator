@@ -1,0 +1,347 @@
+{
+  "support_identity_complaint": {
+    "label": "Support: någon skriver i mitt namn",
+    "view": "Support",
+    "rows": [
+      [
+        "#1042",
+        "09:00",
+        "Lina N.",
+        "Någon verkar ha skrivit i mitt namn. Jag återkommer med detaljer.",
+        "Öppet"
+      ]
+    ]
+  },
+  "api_traffic_increase": {
+    "label": "Ökad API-trafik",
+    "view": "API Metrics",
+    "series": [
+      280,
+      750,
+      1300,
+      2100,
+      2900,
+      3200
+    ]
+  },
+  "failed_auth_increase": {
+    "label": "Misslyckade autentiseringar",
+    "view": "Authentication",
+    "series": [
+      18,
+      85,
+      160,
+      190,
+      220,
+      195
+    ]
+  },
+  "database_growth": {
+    "label": "Databas växer",
+    "view": "Database",
+    "series": [
+      124,
+      143,
+      178,
+      215,
+      258,
+      284
+    ]
+  },
+  "new_user_accounts": {
+    "label": "Nya användare",
+    "view": "Users",
+    "rows": [
+      [
+        "u1201",
+        "Nova",
+        "08:30",
+        "Verifierad"
+      ],
+      [
+        "u1202",
+        "Alex22",
+        "08:30",
+        "Ej verifierad"
+      ],
+      [
+        "u1203",
+        "Robin23",
+        "08:31",
+        "Ej verifierad"
+      ],
+      [
+        "u1204",
+        "Kim",
+        "08:31",
+        "Ej verifierad"
+      ],
+      [
+        "u1205",
+        "Sam25",
+        "08:32",
+        "Verifierad"
+      ],
+      [
+        "u1206",
+        "Lo26",
+        "08:32",
+        "Ej verifierad"
+      ],
+      [
+        "u1207",
+        "Nova",
+        "08:33",
+        "Ej verifierad"
+      ],
+      [
+        "u1208",
+        "Alex28",
+        "08:33",
+        "Ej verifierad"
+      ],
+      [
+        "u1209",
+        "Robin29",
+        "08:34",
+        "Verifierad"
+      ],
+      [
+        "u1210",
+        "Kim",
+        "08:34",
+        "Ej verifierad"
+      ],
+      [
+        "u1211",
+        "Sam31",
+        "08:35",
+        "Ej verifierad"
+      ],
+      [
+        "u1212",
+        "Lo32",
+        "08:35",
+        "Ej verifierad"
+      ],
+      [
+        "u1213",
+        "Nova",
+        "08:36",
+        "Verifierad"
+      ],
+      [
+        "u1214",
+        "Alex34",
+        "08:36",
+        "Ej verifierad"
+      ],
+      [
+        "u1215",
+        "Robin35",
+        "08:37",
+        "Ej verifierad"
+      ],
+      [
+        "u1216",
+        "Kim",
+        "08:37",
+        "Ej verifierad"
+      ],
+      [
+        "u1217",
+        "Sam37",
+        "08:38",
+        "Verifierad"
+      ],
+      [
+        "u1218",
+        "Lo38",
+        "08:38",
+        "Ej verifierad"
+      ],
+      [
+        "u1219",
+        "Nova",
+        "08:39",
+        "Ej verifierad"
+      ],
+      [
+        "u1220",
+        "Alex40",
+        "08:39",
+        "Ej verifierad"
+      ],
+      [
+        "u1221",
+        "Robin41",
+        "08:40",
+        "Verifierad"
+      ],
+      [
+        "u1222",
+        "Kim",
+        "08:40",
+        "Ej verifierad"
+      ],
+      [
+        "u1223",
+        "Sam43",
+        "08:41",
+        "Ej verifierad"
+      ],
+      [
+        "u1224",
+        "Lo44",
+        "08:41",
+        "Ej verifierad"
+      ],
+      [
+        "u1225",
+        "Nova",
+        "08:42",
+        "Verifierad"
+      ],
+      [
+        "u1226",
+        "Alex46",
+        "08:42",
+        "Ej verifierad"
+      ],
+      [
+        "u1227",
+        "Robin47",
+        "08:43",
+        "Ej verifierad"
+      ],
+      [
+        "u1228",
+        "Kim",
+        "08:43",
+        "Ej verifierad"
+      ],
+      [
+        "u1229",
+        "Sam49",
+        "08:44",
+        "Verifierad"
+      ],
+      [
+        "u1230",
+        "Lo50",
+        "08:44",
+        "Ej verifierad"
+      ],
+      [
+        "u1231",
+        "Nova",
+        "08:45",
+        "Ej verifierad"
+      ],
+      [
+        "u1232",
+        "Alex52",
+        "08:45",
+        "Ej verifierad"
+      ],
+      [
+        "u1233",
+        "Robin53",
+        "08:46",
+        "Verifierad"
+      ],
+      [
+        "u1234",
+        "Kim",
+        "08:46",
+        "Ej verifierad"
+      ],
+      [
+        "u1235",
+        "Sam55",
+        "08:47",
+        "Ej verifierad"
+      ],
+      [
+        "u1236",
+        "Lo56",
+        "08:47",
+        "Ej verifierad"
+      ]
+    ]
+  },
+  "aggressive_comments": {
+    "label": "Aggressiva kommentarer",
+    "view": "Application",
+    "rows": [
+      [
+        "09:36",
+        "Helgens aktiviteter",
+        "u1201",
+        "Nova",
+        "Ingen här verkar kunna tänka själv."
+      ],
+      [
+        "09:38",
+        "Tips på utflykter",
+        "u1205",
+        "Sam25",
+        "Sluta skriva sånt här skräp."
+      ],
+      [
+        "09:42",
+        "Helgens aktiviteter",
+        "u1207",
+        "Nova",
+        "Ni borde lämna gruppen."
+      ],
+      [
+        "09:45",
+        "Ny i föreningen",
+        "u1210",
+        "Kim",
+        "Ingen vill ha er här."
+      ],
+      [
+        "09:47",
+        "Tips på utflykter",
+        "u1212",
+        "Lo32",
+        "Håll tyst, du fattar ingenting."
+      ]
+    ]
+  },
+  "additional_support_tickets": {
+    "label": "Fler supportärenden",
+    "view": "Support",
+    "rows": [
+      [
+        "#1043",
+        "09:50",
+        "Olle",
+        "Flera nya konton förstör diskussionen.",
+        "Öppet"
+      ],
+      [
+        "#1044",
+        "09:54",
+        "Maja",
+        "Jag vill veta hur jag tar bort mitt konto.",
+        "Öppet"
+      ]
+    ]
+  },
+  "management_request": {
+    "label": "Produktägaren vill ha besked",
+    "view": "Support",
+    "rows": [
+      [
+        "#1045",
+        "10:15",
+        "Produktägare",
+        "Är användarnas information säker? Kan vi hålla tjänsten öppen? Behöver ett besked.",
+        "Öppet"
+      ]
+    ]
+  }
+}

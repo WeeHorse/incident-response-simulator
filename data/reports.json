@@ -1,0 +1,166 @@
+{
+  "auth_log_details": {
+    "label": "Detaljerade auth-loggar",
+    "view": "Authentication",
+    "headers": [
+      "Tid",
+      "Konto",
+      "Resultat",
+      "Källa"
+    ],
+    "rows": [
+      [
+        "08:52",
+        "u101",
+        "failed",
+        "saknas"
+      ],
+      [
+        "08:53",
+        "u102",
+        "failed",
+        "192.0.2.24"
+      ],
+      [
+        "08:54",
+        "u101",
+        "success",
+        "saknas"
+      ],
+      [
+        "09:01",
+        "u1201",
+        "success",
+        "192.0.2.81"
+      ],
+      [
+        "09:02",
+        "u103",
+        "failed",
+        "192.0.2.24"
+      ]
+    ],
+    "note": "Urval. IP-adresser loggas inte konsekvent; sambandet mellan lyckade och misslyckade försök är inte fastställt."
+  },
+  "registration_report": {
+    "label": "Registreringsstatistik",
+    "view": "Users",
+    "headers": [
+      "Intervall",
+      "Nya konton",
+      "Normalnivå"
+    ],
+    "rows": [
+      [
+        "08:00–08:30",
+        3,
+        2
+      ],
+      [
+        "08:30–09:00",
+        36,
+        3
+      ]
+    ],
+    "note": "E-postverifiering krävs inte för att använda tjänsten."
+  },
+  "database_table_statistics": {
+    "label": "Statistik per tabell",
+    "view": "Database",
+    "headers": [
+      "Tabell",
+      "08:00 MB",
+      "10:15 MB"
+    ],
+    "rows": [
+      [
+        "users",
+        12,
+        34
+      ],
+      [
+        "comments",
+        55,
+        189
+      ],
+      [
+        "threads",
+        25,
+        29
+      ],
+      [
+        "other",
+        28,
+        32
+      ]
+    ],
+    "note": "Mätning från 10:15; ingen fullständig historik per tabell."
+  },
+  "deployment_history": {
+    "label": "Deploymenthistorik",
+    "view": "Deployments",
+    "headers": [
+      "Version",
+      "Tid",
+      "Build",
+      "Test",
+      "Deploy"
+    ],
+    "rows": [
+      [
+        "1.8.2",
+        "Igår 16:20",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      [
+        "1.8.1",
+        "Igår 10:15",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      [
+        "1.8.0",
+        "Förra veckan",
+        "OK",
+        "OK",
+        "OK"
+      ]
+    ],
+    "note": "1.8.2: förbättrad presentation av användarprofiler."
+  },
+  "user_activity_report": {
+    "label": "Användaraktivitet",
+    "view": "Users",
+    "headers": [
+      "Konto",
+      "Kommentarer",
+      "Senast aktiv"
+    ],
+    "rows": [
+      [
+        "u1201",
+        47,
+        "09:49"
+      ],
+      [
+        "u1205",
+        32,
+        "09:50"
+      ],
+      [
+        "u1207",
+        28,
+        "09:48"
+      ],
+      [
+        "u101",
+        4,
+        "09:04"
+      ]
+    ],
+    "note": "Ingen historik över ändringar av kontouppgifter. Urval, inte fullständig revision."
+  }
+}
