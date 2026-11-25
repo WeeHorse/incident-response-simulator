@@ -1,6 +1,6 @@
 {
-  "sessionId": "incident-03",
-  "simulationTime": "09:30",
+  "sessionId": "incident-04",
+  "simulationTime": "09:45",
   "events": {
     "support_identity_complaint": 1,
     "api_traffic_increase": 1,
@@ -8,7 +8,7 @@
     "database_growth": 1,
     "new_user_accounts": 1,
     "aggressive_comments": 0,
-    "additional_support_tickets": 0,
+    "additional_support_tickets": 1,
     "management_request": 0
   },
   "reports": {
