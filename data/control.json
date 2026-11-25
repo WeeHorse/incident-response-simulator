@@ -16,6 +16,6 @@
     "registration_report": 1,
     "database_table_statistics": 1,
     "deployment_history": 1,
-    "user_activity_report": 0
+    "user_activity_report": 1
   }
 }
